@@ -1,0 +1,4 @@
+interface:
+  display_name: "good-video-opening"
+  short_description: "设计视频开头：前3秒、剩余开场、画面构建、标题封面"
+  default_prompt: "用 $good-video-opening 帮我设计这支视频的开头，输出开场分镜和自检清单。"
