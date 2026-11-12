@@ -69,6 +69,7 @@ cp -R skills/good-video-opening ~/.claude/skills/
 ```
 skills/
 ├── README.md
+├── LICENSE
 └── <skill-name>/
     ├── SKILL.md            # 必需：frontmatter（name、description）+ 正文说明
     ├── references/         # 可选：资料、案例、长文档，按需读取
@@ -85,3 +86,7 @@ skills/
 3. 长资料放进 `references/`，可执行的部分放进 `scripts/`，让 `SKILL.md` 保持精简。
 4. 运行 `npx skills add wolfyxbt/skills --list`（推送后）确认新 skill 能被识别。
 5. 在上面的「Skills 一览」表格里加一行。
+
+## 许可证
+
+[MIT](./LICENSE)：可以自由使用、修改和再分发，保留版权声明即可。
